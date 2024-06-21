@@ -1,0 +1,197 @@
+.diag-img{
+    margin: auto;
+    padding: 13.5%;
+    display: flex;
+    width: 29%;
+    height: 35%;
+    top: 4%;
+    position: absolute;
+    right: 50%;
+}
+/* Define la transición */
+.diag-img {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Aplica la transición al pasar el ratón por encima */
+  .diag-img:hover {
+    background-color: lightblue;
+  }
+.ofta-img{
+    margin: auto;
+    padding: -17%;
+    display: flex;
+    width: 25%;
+    height: 35%;
+    top: 30%;
+    position: absolute;
+    right: 35%;
+}
+.derma-img {
+    margin: auto;
+    padding: 2.5%;
+    display: flex;
+    width: 20%;
+    height: 35%;
+    top: 25%;
+    position: absolute;
+    right: 5%;
+}
+.quirur-img {
+    margin: auto;
+    padding: 2.5%;
+    display: flex;
+    width: 20%;
+    height: 35%;
+    top: 80%;
+    position: absolute;
+    right: 65%;
+}
+.reha-img {
+    margin: auto;
+    padding: 2.5%;
+    display: flex;
+    width: 20%;
+    height: 35%;
+    top: 80%;
+    position: absolute;
+    right: 35%;
+}
+.cuida-img {
+    margin: auto;
+    padding: 2.5%;
+    display: flex;
+    width: 20%;
+    height: 35%;
+    top: 80%;
+    position: absolute;
+    right: 5%;
+}
+.huellas-img{
+    transform: rotate(-90deg); /* Rotar la imagen -90 grados */
+    width: 40px; /* Ajustar el tamaño automáticamente */
+    height: 500px; /* Altura ajustada */
+    position: relative;
+    left: 240px;
+    margin: 0px;
+    top: 600px
+}
+.huellitas-img {
+    transform: rotateY(180deg) rotate(-90deg); /* Voltear horizontalmente y rotar -90 grados */
+    width: 40px; /* Ancho de la imagen */
+    height: 500px; /* Altura de la imagen */
+    position: relative; /* Posición relativa para ajustar posición */
+    left: 1500px; /* Mover la imagen hacia la derecha */
+    top: 600px; /* Ajuste vertical */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: #777676;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilos adicionales para los botones del header */
+header a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 2 25px;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Cambio de color al pasar el cursor por encima */
+header a:hover {
+    color: rgb(87, 226, 87); /* Cambia el color a verde */
+}
+
+/* Estilos para las líneas verdes encima y debajo del header */
+header::before,
+header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 12px; /* Altura de las líneas */
+    background-color: rgb(87, 226, 87); /* Color verde */
+}
+
+header::before {
+    top: -15px; /* Posición encima del header */
+}
+
+header::after {
+    bottom: -15px; /* Posición debajo del header */
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    padding: 2em;
+    text-align: center;
+}
+.section {
+    margin-bottom: 2em;
+}
+
+.texto1 {
+position: absolute;
+top: 200px;
+width: 430px;
+left: 240px;
+}
+.texto2 {
+position: relative;
+top: 60px;
+width: 430px;
+left: 750px;
+}
+.texto3 {
+position: relative;
+top: 20px;
+width: 430px;
+left: 1255px;
+}
+.texto4 {
+position: absolute;
+top: 710px;
+width: 430px;
+left: 200px;
+}
+.texto5 {
+    position: relative;
+    top: 500px;
+    width: 430px;
+    left: 750px;
+}
+.texto6 {
+    position: relative;
+    top: 450px;
+    width: 430px;
+    left: 1280px;
+}
